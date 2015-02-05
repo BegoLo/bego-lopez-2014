@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>0</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Customer
+--
+-dni: String
+-name: String
+-email: String
+--
+Customer(dni:String,name:String,email:String)
+toString():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>200</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Main
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>0</y>
+      <w>260</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Contacts
+--
+-owner: String
+-customers: Hashtable&lt;String,Customer&gt;
+--
+Contacts(owner: String)
++addCustomer(c: Customer )
++searchCustomer (dni: String )
++removeCustomer(dni: String )
++showAll(): String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>50</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=0..N</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>150</y>
+      <w>150</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0;130.0;140.0</additional_attributes>
+  </element>
+</diagram>

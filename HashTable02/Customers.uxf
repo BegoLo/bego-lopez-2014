@@ -6,7 +6,7 @@
     <coordinates>
       <x>320</x>
       <y>0</y>
-      <w>210</w>
+      <w>290</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>Customer
@@ -22,15 +22,16 @@ toString():String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
+      <x>190</x>
       <y>200</y>
       <w>210</w>
-      <h>190</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Main
 --
 
 --
++main(args:String[])
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -74,10 +75,10 @@ m2=0..N</panel_attributes>
     <coordinates>
       <x>110</x>
       <y>150</y>
-      <w>150</w>
-      <h>160</h>
+      <w>100</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;140.0;130.0;140.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;80.0;90.0</additional_attributes>
   </element>
 </diagram>

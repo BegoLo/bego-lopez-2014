@@ -42,12 +42,13 @@ public class Main {
 			System.out.println("Commander found: " + found.toString());
 			myFleet.removeShip(secondCommander);
 			System.out.println("Deleted");
+			System.out.println("\nShow ships after remove: ");
+			System.out.println("Ships: \n" + myFleet.showAll() );
 		} else {
 			System.out.println("Commander not found");
 		} 
 		
-		System.out.println("\nShow ships after remove: ");
-		System.out.println("Ships: \n" + myFleet.showAll() );
+		
 		
 	}
 
